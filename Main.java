@@ -47,6 +47,9 @@ public class Main {
         public static Integer chooseBestSum(int t, int k, List<Integer> ls) {
 
             int new_val = 0;
+            
+                 if (k > ls.size())
+         return null;
      
 
             for (int i = 0; i < ls.size(); i++) {
